@@ -1,6 +1,6 @@
 # Privacy policy
 
-_Last updated: 4 November 2026_
+_Last updated: 7 November 2026_
 
 Fog of War ("FOW") is a Windows app for League of Legends players. This page explains what it reads, what it sends and what it stores.
 
@@ -9,14 +9,14 @@ Fog of War ("FOW") is a Windows app for League of Legends players. This page exp
 - From these it shows your summoner, ranks, match history, champion select and the players in your game.
 
 ## What FOW sends over the internet
-- **Player lookups** (searching a Riot ID, opening a profile, ranks of players in your game): the Riot ID or player id is sent to FOW's proxy server (hosted on Cloudflare) and from there to the official Riot Games API. If you enter your own Riot developer key, requests go straight to Riot instead.
+- **Player lookups** (searching a Riot ID, opening a profile, ranks of players in your game): the Riot ID or player id is sent to FOW's proxy server (hosted on Cloudflare) and from there to the official Riot Games API.
 - **Update check**: the app asks GitHub for the newest release of https://github.com/diecayed/fogofwar.
 - **Images**: rank emblems and role icons are loaded from CommunityDragon (raw.communitydragon.org).
 
 FOW has no accounts, no analytics, no ads tracking and no telemetry. The proxy keeps short technical logs (time, requested Riot endpoint, IP address for rate limiting) for up to 7 days to keep the service working and to stop abuse; they are not shared or sold.
 
 ## What FOW stores
-Everything stays on your PC in `%APPDATA%\FogOfWar`: settings (including your own Riot key, if you add one), your match history and LP snapshots, cached profiles and anonymous game records (champions, roles, augments and results, without names) used for counter and augment statistics. Delete the folder to remove all of it.
+Everything stays on your PC in `%APPDATA%\FogOfWar`: settings, your match history and LP snapshots, cached profiles and anonymous game records (champions, roles and results, without names) used for counter and ban statistics. Custom games are not stored as game records; other players' custom games are never shown. Delete the folder to remove all of it.
 
 ## Children
 FOW is meant for people old enough to play League of Legends under Riot's terms.
