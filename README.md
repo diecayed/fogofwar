@@ -5,7 +5,7 @@ A free companion app for League of Legends on Windows: champion select help, a s
 **Download:** [latest release](https://github.com/diecayed/fogofwar/releases/latest) · **Website:** https://diecayed.github.io/fogofwar/
 
 - Reads the League client only (it never changes anything in it), and shows nothing the game itself hides: players the client keeps hidden in champion select stay hidden.
-- Other players' profiles come from the official Riot Games API.
+- Other players' profiles come from the official Riot Games API(This feature is a wip since the project is still waiting Riot Developer approval).
 - No account, no telemetry. See the [privacy policy](https://diecayed.github.io/fogofwar/PRIVACY.html) and [terms of use](https://diecayed.github.io/fogofwar/TERMS.html).
 
 The app updates itself from this page (Settings → Updates). Every download comes with a SHA-256 checksum that the updater verifies.
